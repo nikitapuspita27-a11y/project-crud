@@ -1,0 +1,23 @@
+
+# Frontend Nuxt / Vue
+frontend/node_modules/
+frontend/.nuxt/
+frontend/.output/
+frontend/dist/
+
+# Backend Laravel
+backend/vendor/
+backend/storage/logs/*
+backend/bootstrap/cache/*.php
+
+# File rahasia
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# File sistem
+.DS_Store
+Thumbs.db
